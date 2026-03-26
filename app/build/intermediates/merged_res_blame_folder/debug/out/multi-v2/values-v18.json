@@ -1,0 +1,19 @@
+{
+    "logs": [
+        {
+            "outputFile": "ru.netology.testing.uiautomator.app-mergeDebugResources-19:/values-v18/values-v18.xml",
+            "map": [
+                {
+                    "source": "C:\\Users\\atleu\\.gradle\\caches\\transforms-3\\e32cff9d74dfad1a8bc0b2ecd88eb732\\transformed\\appcompat-1.6.1\\res\\values-v18\\values-v18.xml",
+                    "from": {
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "55",
+                        "endColumns": "48",
+                        "endOffsets": "99"
+                    }
+                }
+            ]
+        }
+    ]
+}

@@ -1,0 +1,130 @@
+# 2026-03-26T12:49:07.783045700Z:
+test_suite_meta_data {
+  scheduled_test_case_count: 2
+}
+test_status: FAILED
+test_result {
+  test_case {
+    test_class: "ChangeTextTest"
+    test_package: "ru.netology.testing.uiautomator"
+    test_method: "testInternetSettings"
+    start_time {
+      seconds: 1774529316
+      nanos: 594000000
+    }
+    end_time {
+      seconds: 1774529339
+      nanos: 369000000
+    }
+  }
+  test_status: FAILED
+  error {
+    error_message: "androidx.test.uiautomator.UiObjectNotFoundException: UiSelector[INSTANCE=0, RESOURCE_ID=android:id/title]\nat androidx.test.uiautomator.UiObject.click(UiObject.java:378)\nat ru.netology.testing.uiautomator.ChangeTextTest.testInternetSettings(ChangeTextTest.kt:98)\n"
+    error_type: "androidx.test.uiautomator.UiObjectNotFoundException"
+    stack_trace: "androidx.test.uiautomator.UiObjectNotFoundException: UiSelector[INSTANCE=0, RESOURCE_ID=android:id/title]\nat androidx.test.uiautomator.UiObject.click(UiObject.java:378)\nat ru.netology.testing.uiautomator.ChangeTextTest.testInternetSettings(ChangeTextTest.kt:98)\n"
+  }
+  output_artifact {
+    label {
+      label: "logcat"
+      namespace: "android"
+    }
+    source_path {
+      path: "C:\\Users\\atleu\\OneDrive\\Desktop\\sample2\\app\\build\\outputs\\androidTest-results\\connected\\debug\\SM-S938B - 16\\logcat-ru.netology.testing.uiautomator.ChangeTextTest-testInternetSettings.txt"
+    }
+  }
+  output_artifact {
+    label {
+      label: "device-info"
+      namespace: "android"
+    }
+    source_path {
+      path: "C:\\Users\\atleu\\OneDrive\\Desktop\\sample2\\app\\build\\outputs\\androidTest-results\\connected\\debug\\SM-S938B - 16\\device-info.pb"
+    }
+  }
+  output_artifact {
+    label {
+      label: "device-info.meminfo"
+      namespace: "android"
+    }
+    source_path {
+      path: "C:\\Users\\atleu\\OneDrive\\Desktop\\sample2\\app\\build\\outputs\\androidTest-results\\connected\\debug\\SM-S938B - 16\\meminfo"
+    }
+  }
+  output_artifact {
+    label {
+      label: "device-info.cpuinfo"
+      namespace: "android"
+    }
+    source_path {
+      path: "C:\\Users\\atleu\\OneDrive\\Desktop\\sample2\\app\\build\\outputs\\androidTest-results\\connected\\debug\\SM-S938B - 16\\cpuinfo"
+    }
+  }
+}
+test_result {
+  test_case {
+    test_class: "ChangeTextTest"
+    test_package: "ru.netology.testing.uiautomator"
+    test_method: "testChangeText"
+    start_time {
+      seconds: 1774529339
+      nanos: 413000000
+    }
+    end_time {
+      seconds: 1774529347
+      nanos: 178000000
+    }
+  }
+  test_status: FAILED
+  error {
+    error_message: "java.lang.NullPointerException: Attempt to invoke virtual method \'void androidx.test.uiautomator.UiObject2.setText(java.lang.String)\' on a null object reference\nat ru.netology.testing.uiautomator.ChangeTextTest.testChangeText(ChangeTextTest.kt:106)\n"
+    error_type: "java.lang.NullPointerException"
+    stack_trace: "java.lang.NullPointerException: Attempt to invoke virtual method \'void androidx.test.uiautomator.UiObject2.setText(java.lang.String)\' on a null object reference\nat ru.netology.testing.uiautomator.ChangeTextTest.testChangeText(ChangeTextTest.kt:106)\n"
+  }
+  output_artifact {
+    label {
+      label: "logcat"
+      namespace: "android"
+    }
+    source_path {
+      path: "C:\\Users\\atleu\\OneDrive\\Desktop\\sample2\\app\\build\\outputs\\androidTest-results\\connected\\debug\\SM-S938B - 16\\logcat-ru.netology.testing.uiautomator.ChangeTextTest-testChangeText.txt"
+    }
+  }
+  output_artifact {
+    label {
+      label: "device-info"
+      namespace: "android"
+    }
+    source_path {
+      path: "C:\\Users\\atleu\\OneDrive\\Desktop\\sample2\\app\\build\\outputs\\androidTest-results\\connected\\debug\\SM-S938B - 16\\device-info.pb"
+    }
+  }
+  output_artifact {
+    label {
+      label: "device-info.meminfo"
+      namespace: "android"
+    }
+    source_path {
+      path: "C:\\Users\\atleu\\OneDrive\\Desktop\\sample2\\app\\build\\outputs\\androidTest-results\\connected\\debug\\SM-S938B - 16\\meminfo"
+    }
+  }
+  output_artifact {
+    label {
+      label: "device-info.cpuinfo"
+      namespace: "android"
+    }
+    source_path {
+      path: "C:\\Users\\atleu\\OneDrive\\Desktop\\sample2\\app\\build\\outputs\\androidTest-results\\connected\\debug\\SM-S938B - 16\\cpuinfo"
+    }
+  }
+}
+output_artifact {
+  label {
+    label: "test-results.log"
+    namespace: "com.google.testing.platform.runtime.android.driver.AndroidInstrumentationDriver"
+  }
+  source_path {
+    path: "C:\\Users\\atleu\\OneDrive\\Desktop\\sample2\\app\\build\\outputs\\androidTest-results\\connected\\debug\\SM-S938B - 16\\testlog\\test-results.log"
+  }
+  type: TEST_DATA
+  mime_type: "text/plain"
+}

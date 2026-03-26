@@ -1,0 +1,63 @@
+INSTRUMENTATION_STATUS: class=ru.netology.testing.uiautomator.ChangeTextTest
+INSTRUMENTATION_STATUS: current=1
+INSTRUMENTATION_STATUS: id=AndroidJUnitRunner
+INSTRUMENTATION_STATUS: numtests=2
+INSTRUMENTATION_STATUS: stream=
+ru.netology.testing.uiautomator.ChangeTextTest:
+INSTRUMENTATION_STATUS: test=testInternetSettings
+INSTRUMENTATION_STATUS_CODE: 1
+INSTRUMENTATION_STATUS: class=ru.netology.testing.uiautomator.ChangeTextTest
+INSTRUMENTATION_STATUS: current=1
+INSTRUMENTATION_STATUS: id=AndroidJUnitRunner
+INSTRUMENTATION_STATUS: numtests=2
+INSTRUMENTATION_STATUS: stack=androidx.test.uiautomator.UiObjectNotFoundException: UiSelector[INSTANCE=0, RESOURCE_ID=android:id/title]
+at androidx.test.uiautomator.UiObject.click(UiObject.java:378)
+at ru.netology.testing.uiautomator.ChangeTextTest.testInternetSettings(ChangeTextTest.kt:98)
+
+INSTRUMENTATION_STATUS: stream=
+Error in testInternetSettings(ru.netology.testing.uiautomator.ChangeTextTest):
+androidx.test.uiautomator.UiObjectNotFoundException: UiSelector[INSTANCE=0, RESOURCE_ID=android:id/title]
+at androidx.test.uiautomator.UiObject.click(UiObject.java:378)
+at ru.netology.testing.uiautomator.ChangeTextTest.testInternetSettings(ChangeTextTest.kt:98)
+
+INSTRUMENTATION_STATUS: test=testInternetSettings
+INSTRUMENTATION_STATUS_CODE: -2
+INSTRUMENTATION_STATUS: class=ru.netology.testing.uiautomator.ChangeTextTest
+INSTRUMENTATION_STATUS: current=2
+INSTRUMENTATION_STATUS: id=AndroidJUnitRunner
+INSTRUMENTATION_STATUS: numtests=2
+INSTRUMENTATION_STATUS: stream=
+INSTRUMENTATION_STATUS: test=testChangeText
+INSTRUMENTATION_STATUS_CODE: 1
+INSTRUMENTATION_STATUS: class=ru.netology.testing.uiautomator.ChangeTextTest
+INSTRUMENTATION_STATUS: current=2
+INSTRUMENTATION_STATUS: id=AndroidJUnitRunner
+INSTRUMENTATION_STATUS: numtests=2
+INSTRUMENTATION_STATUS: stack=java.lang.NullPointerException: Attempt to invoke virtual method 'void androidx.test.uiautomator.UiObject2.setText(java.lang.String)' on a null object reference
+at ru.netology.testing.uiautomator.ChangeTextTest.testChangeText(ChangeTextTest.kt:106)
+
+INSTRUMENTATION_STATUS: stream=
+Error in testChangeText(ru.netology.testing.uiautomator.ChangeTextTest):
+java.lang.NullPointerException: Attempt to invoke virtual method 'void androidx.test.uiautomator.UiObject2.setText(java.lang.String)' on a null object reference
+at ru.netology.testing.uiautomator.ChangeTextTest.testChangeText(ChangeTextTest.kt:106)
+
+INSTRUMENTATION_STATUS: test=testChangeText
+INSTRUMENTATION_STATUS_CODE: -2
+INSTRUMENTATION_RESULT: stream=
+
+Time: 30,61
+There were 2 failures:
+1) testInternetSettings(ru.netology.testing.uiautomator.ChangeTextTest)
+androidx.test.uiautomator.UiObjectNotFoundException: UiSelector[INSTANCE=0, RESOURCE_ID=android:id/title]
+at androidx.test.uiautomator.UiObject.click(UiObject.java:378)
+at ru.netology.testing.uiautomator.ChangeTextTest.testInternetSettings(ChangeTextTest.kt:98)
+2) testChangeText(ru.netology.testing.uiautomator.ChangeTextTest)
+java.lang.NullPointerException: Attempt to invoke virtual method 'void androidx.test.uiautomator.UiObject2.setText(java.lang.String)' on a null object reference
+at ru.netology.testing.uiautomator.ChangeTextTest.testChangeText(ChangeTextTest.kt:106)
+
+FAILURES!!!
+Tests run: 2,  Failures: 2
+
+
+INSTRUMENTATION_CODE: -1
+
